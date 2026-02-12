@@ -1,56 +1,74 @@
-Digital Gratitude Journal-
-   A Professional Mobile Application for Mental Well-being
+# Welcome to your Expo app 👋
 
-Project Overview-
-   Digital Gratitude Journal is a high-performance mobile application built with the React Native framework. It provides users with a secure and intuitive platform to document daily reflections, track emotional trends, and utilize multi-modal features like voice recording.
 
-Technical Features
-   
-   Multi-Modal Data Entry
 
-      Voice Notes: Integrated audio recording and playback using the Expo-AV library.
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-      Mood Tracking: A categorical tagging system to monitor emotional well-being.
 
-      Weekly Reports: Smart temporal filtering to display summaries of the last 7 days.
 
-   Accessibility and UI
+## Get started
 
-      Text-to-Speech: Integrated speech synthesis using Expo-Speech to read entries aloud.
 
-      Adaptive Theme: Seamless transition between Dark and Light modes for better user experience.
 
-      Vector Graphics: High-quality icons provided by FontAwesome and Ionicons.
+1. Install dependencies
 
-   Data Management
 
-      Local Persistence: Secure data storage using React Native Async Storage.
 
-      Offline First: The app is fully functional without an active internet connection.
+   ```bash
 
-Tech Stack
-   
-   Framework: React Native (Expo Managed Workflow)
+   npm install
 
-   Language: JavaScript (ES6+)
+   ```
 
-   Audio Logic: Expo-AV
 
-   Speech Synthesis: Expo-Speech
 
-   Persistent Storage: @react-native-async-storage
+2. Start the app
 
-   Build Tool: EAS CLI (Expo Application Services)
 
-Installation and Setup
-   1.Clone the project: git clone [Your Repository Link]
 
-   2.Install dependencies: npm install
+   ```bash
 
-   3.Start the development server: npx expo start
+   npx expo start
 
-   4.Build APK (Android): eas build -p android --profile preview
+   ```
 
+
+
+In the output, you'll find options to open the app in a
+
+
+
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+
+
+
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+
+
+
+## Get a fresh project
+
+
+
+When you're ready, run:
+
+
+
+```bash
+
+npm run reset-project
+
+```
+
+
+
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 Developer Credits
    Developed by: Dhanshu
    Year: 2026
