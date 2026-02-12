@@ -1,50 +1,56 @@
-# Welcome to your Expo app 👋
+Digital Gratitude Journal-
+   A Professional Mobile Application for Mental Well-being
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Project Overview-
+   Digital Gratitude Journal is a high-performance mobile application built with the React Native framework. It provides users with a secure and intuitive platform to document daily reflections, track emotional trends, and utilize multi-modal features like voice recording.
 
-## Get started
+Technical Features
+   
+   Multi-Modal Data Entry
 
-1. Install dependencies
+      Voice Notes: Integrated audio recording and playback using the Expo-AV library.
 
-   ```bash
-   npm install
-   ```
+      Mood Tracking: A categorical tagging system to monitor emotional well-being.
 
-2. Start the app
+      Weekly Reports: Smart temporal filtering to display summaries of the last 7 days.
 
-   ```bash
-   npx expo start
-   ```
+   Accessibility and UI
 
-In the output, you'll find options to open the app in a
+      Text-to-Speech: Integrated speech synthesis using Expo-Speech to read entries aloud.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+      Adaptive Theme: Seamless transition between Dark and Light modes for better user experience.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+      Vector Graphics: High-quality icons provided by FontAwesome and Ionicons.
 
-## Get a fresh project
+   Data Management
 
-When you're ready, run:
+      Local Persistence: Secure data storage using React Native Async Storage.
 
-```bash
-npm run reset-project
-```
+      Offline First: The app is fully functional without an active internet connection.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Tech Stack
+   
+   Framework: React Native (Expo Managed Workflow)
 
-## Learn more
+   Language: JavaScript (ES6+)
 
-To learn more about developing your project with Expo, look at the following resources:
+   Audio Logic: Expo-AV
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+   Speech Synthesis: Expo-Speech
 
-## Join the community
+   Persistent Storage: @react-native-async-storage
 
-Join our community of developers creating universal apps.
+   Build Tool: EAS CLI (Expo Application Services)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Installation and Setup
+   1.Clone the project: git clone [Your Repository Link]
+
+   2.Install dependencies: npm install
+
+   3.Start the development server: npx expo start
+
+   4.Build APK (Android): eas build -p android --profile preview
+
+Developer Credits
+   Developed by: Dhanshu
+   Year: 2026
